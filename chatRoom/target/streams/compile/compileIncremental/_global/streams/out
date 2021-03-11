@@ -1,0 +1,38 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 24 products, 3 sources, 4 libraries
+[debug] current source = Set(${BASE}/src/main/scala/ChatRoom.scala, ${BASE}/src/main/scala/Gabbler.scala, ${BASE}/src/main/scala/Main.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/ChatRoom.scala), removed = Set(${BASE}/src/main/scala/chatroom.scala), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/ChatRoom$GetSession.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionCommand.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionGranted$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionGranted.class, ${BASE}/target/scala-2.13/classes/ChatRoom$MessagePosted.class, ${BASE}/target/scala-2.13/classes/ChatRoom$GetSession$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionEvent.class, ${BASE}/target/scala-2.13/classes/ChatRoom$MessagePosted$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PublishSessionMessage$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$RoomCommand.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PostMessage.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PostMessage$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionDenied.class, ${BASE}/target/scala-2.13/classes/ChatRoom$NotifyClient$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PublishSessionMessage.class, ${BASE}/target/scala-2.13/classes/ChatRoom.class, ${BASE}/target/scala-2.13/classes/ChatRoom$NotifyClient.class, ${BASE}/target/scala-2.13/classes/ChatRoom$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionDenied$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set(${BASE}/src/main/scala/chatroom.scala)
+[debug] 	added: Set(${BASE}/src/main/scala/ChatRoom.scala)
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/ChatRoom$GetSession.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionCommand.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionGranted$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionGranted.class, ${BASE}/target/scala-2.13/classes/ChatRoom$MessagePosted.class, ${BASE}/target/scala-2.13/classes/ChatRoom$GetSession$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionEvent.class, ${BASE}/target/scala-2.13/classes/ChatRoom$MessagePosted$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PublishSessionMessage$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$RoomCommand.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PostMessage.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PostMessage$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionDenied.class, ${BASE}/target/scala-2.13/classes/ChatRoom$NotifyClient$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$PublishSessionMessage.class, ${BASE}/target/scala-2.13/classes/ChatRoom.class, ${BASE}/target/scala-2.13/classes/ChatRoom$NotifyClient.class, ${BASE}/target/scala-2.13/classes/ChatRoom$.class, ${BASE}/target/scala-2.13/classes/ChatRoom$SessionDenied$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(ChatRoom.MessagePosted, ChatRoom.PublishSessionMessage, Gabbler, ChatRoom.SessionEvent, ChatRoom, ChatRoom.SessionCommand, ChatRoom.RoomCommand, ChatRoom.GetSession, ChatRoom.PostMessage, Main, ChatRoom.SessionGranted, ChatRoom.SessionDenied, ChatRoom.NotifyClient)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/chatroom.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(ChatRoom.MessagePosted, ChatRoom.PublishSessionMessage, Gabbler, ChatRoom.SessionEvent, ChatRoom, ChatRoom.SessionCommand, ChatRoom.RoomCommand, ChatRoom.GetSession, ChatRoom.PostMessage, Main, ChatRoom.SessionGranted, ChatRoom.SessionDenied, ChatRoom.NotifyClient)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/ChatRoom.scala, ${BASE}/src/main/scala/chatroom.scala)
+[debug] Initial set of included nodes: ChatRoom.MessagePosted, ChatRoom.PublishSessionMessage, Gabbler, ChatRoom.SessionEvent, ChatRoom, ChatRoom.SessionCommand, ChatRoom.RoomCommand, ChatRoom.GetSession, ChatRoom.PostMessage, Main, ChatRoom.SessionGranted, ChatRoom.SessionDenied, ChatRoom.NotifyClient
+[debug] Including ChatRoom.SessionGranted by ChatRoom.SessionEvent
+[debug] Including ChatRoom.SessionDenied by ChatRoom.SessionEvent
+[debug] Including ChatRoom.PostMessage by ChatRoom.SessionCommand
+[debug] Including ChatRoom.NotifyClient by ChatRoom.SessionCommand
+[debug] Including ChatRoom.GetSession by ChatRoom.RoomCommand
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to C:\Users\User\Documents\hw_scala\chatRoom\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.4:compile for Scala 2.13.5
+[debug] [zinc] Running cached compiler 78621c59 for Scala compiler version 2.13.5
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar
+[debug] 	-classpath
+[debug] 	C:\Users\User\Documents\hw_scala\chatRoom\target\scala-2.13\classes;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.13\akka-actor-typed_2.13-2.6.13.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.13\akka-actor_2.13-2.6.13.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.13\akka-slf4j_2.13-2.6.13.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar
+[debug] Scala compilation took 14.4885372 s
+[info] done compiling

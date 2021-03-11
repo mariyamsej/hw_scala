@@ -1,0 +1,5 @@
+[warn] C:\Users\User\Documents\hw_scala\chatRoom\src\main\scala\Gabbler.scala:18:32: match may not be exhaustive.
+[warn] It would fail on the following input: SessionDenied(_)
+[warn]       Behaviors.receiveMessage {
+[warn]                                ^
+[warn] one warning found
