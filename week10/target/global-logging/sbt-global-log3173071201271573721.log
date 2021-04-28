@@ -1,0 +1,159 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea2.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea2.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (AdoptOpenJDK Java 11.0.10)
+[debug]       Load.loadUnit: plugins took 124.8404ms
+[debug]       Load.loadUnit: defsScala took 0.399ms
+[debug] [Loading] Scanning directory C:\Users\User\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 28.311 ms
+[debug]           Load.resolveProject(global-plugins) took 50.2194ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\User\.sbt\1.0\plugins, plugins: List(<none>))) took 113.0841ms
+[debug] [Loading] Done in C:\Users\User\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 139.8106ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.251ms
+[debug]     Load.loadUnit(file:/C:/Users/User/.sbt/1.0/plugins/, ...) took 278.6371ms
+[debug]   Load.apply: load took 451.1841ms
+[debug]   Load.apply: resolveProjects took 6.736ms
+[debug]   Load.apply: finalTransforms took 60.6293ms
+[debug]   Load.apply: config.delegates took 9.9865ms
+[debug]   Load.apply: Def.make(settings)... took 845.9496ms
+[debug]   Load.apply: structureIndex took 119.7315ms
+[debug]   Load.apply: mkStreams took 2.4474ms
+[info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3616.217ms
+[debug]           Load.loadUnit: plugins took 28.4644ms
+[debug]           Load.loadUnit: defsScala took 0.0046ms
+[debug] [Loading] Scanning directory C:\Users\User\Documents\hw_scala\week10\project
+[debug]             Load.loadUnit: mkEval took 11.6285ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\Documents\hw_scala\week10\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2967 ms
+[info] loading settings for project week10-build from idea2.sbt ...
+[debug]               Load.resolveProject(week10-build) took 4.3035ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id week10-build, base: C:\Users\User\Documents\hw_scala\week10\project, plugins: List(<none>))) took 7.3482ms
+[debug] [Loading] Done in C:\Users\User\Documents\hw_scala\week10\project, returning: (week10-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2995.9664ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.7961ms
+[debug]         Load.loadUnit(file:/C:/Users/User/Documents/hw_scala/week10/project/, ...) took 3030.8119ms
+[debug]       Load.apply: load took 3032.489ms
+[debug]       Load.apply: resolveProjects took 0.1118ms
+[debug]       Load.apply: finalTransforms took 9.0981ms
+[debug]       Load.apply: config.delegates took 0.434ms
+[debug]       Load.apply: Def.make(settings)... took 82.0045ms
+[debug]       Load.apply: structureIndex took 31.3308ms
+[debug]       Load.apply: mkStreams took 0.0041ms
+[info] loading project definition from C:\Users\User\Documents\hw_scala\week10\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4394.1421ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\User\Documents\hw_scala\week10
+[debug]       Load.loadUnit: mkEval took 0.2923ms
+[debug] Type error in expression
+[debug] 	at sbt.compiler.Eval.checkError(Eval.scala:487)
+[debug] 	at sbt.compiler.Eval.compileAndLoad(Eval.scala:262)
+[debug] 	at sbt.compiler.Eval.evalCommon(Eval.scala:223)
+[debug] 	at sbt.compiler.Eval.evalDefinitions(Eval.scala:164)
+[debug] 	at sbt.internal.EvaluateConfigurations$.evaluateDefinitions(EvaluateConfigurations.scala:325)
+[debug] 	at sbt.internal.EvaluateConfigurations$.evaluateSbtFile(EvaluateConfigurations.scala:151)
+[debug] 	at sbt.internal.Load$.loadSettingsFile$1(Load.scala:1106)
+[debug] 	at sbt.internal.Load$.$anonfun$discoverProjects$2(Load.scala:1116)
+[debug] 	at scala.collection.MapLike.getOrElse(MapLike.scala:131)
+[debug] 	at scala.collection.MapLike.getOrElse$(MapLike.scala:129)
+[debug] 	at scala.collection.AbstractMap.getOrElse(Map.scala:65)
+[debug] 	at sbt.internal.Load$.memoLoadSettingsFile$1(Load.scala:1115)
+[debug] 	at sbt.internal.Load$.$anonfun$discoverProjects$4(Load.scala:1123)
+[debug] 	at scala.collection.immutable.List.map(List.scala:293)
+[debug] 	at sbt.internal.Load$.loadFiles$1(Load.scala:1123)
+[debug] 	at sbt.internal.Load$.discoverProjects(Load.scala:1137)
+[debug] 	at sbt.internal.Load$.discover$1(Load.scala:889)
+[debug] 	at sbt.internal.Load$.loadTransitive(Load.scala:943)
+[debug] 	at sbt.internal.Load$.loadProjects$1(Load.scala:726)
+[debug] 	at sbt.internal.Load$.$anonfun$loadUnit$11(Load.scala:729)
+[debug] 	at sbt.internal.Load$.timed(Load.scala:1382)
+[debug] 	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:729)
+[debug] 	at sbt.internal.Load$.timed(Load.scala:1382)
+[debug] 	at sbt.internal.Load$.loadUnit(Load.scala:688)
+[debug] 	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:486)
+[debug] 	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:180)
+[debug] 	at sbt.internal.BuildLoader.apply(BuildLoader.scala:245)
+[debug] 	at sbt.internal.Load$.loadURI$1(Load.scala:548)
+[debug] 	at sbt.internal.Load$.loadAll(Load.scala:564)
+[debug] 	at sbt.internal.Load$.loadURI(Load.scala:494)
+[debug] 	at sbt.internal.Load$.load(Load.scala:473)
+[debug] 	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:242)
+[debug] 	at sbt.internal.Load$.timed(Load.scala:1382)
+[debug] 	at sbt.internal.Load$.apply(Load.scala:242)
+[debug] 	at sbt.internal.Load$.defaultLoad(Load.scala:55)
+[debug] 	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:932)
+[debug] 	at sbt.BuiltinCommands$.doLoadProject(Main.scala:932)
+[debug] 	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:885)
+[debug] 	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:150)
+[debug] 	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:145)
+[debug] 	at sbt.Command$.process(Command.scala:189)
+[debug] 	at sbt.MainLoop$.$anonfun$processCommand$5(MainLoop.scala:243)
+[debug] 	at scala.Option.getOrElse(Option.scala:189)
+[debug] 	at sbt.MainLoop$.process$1(MainLoop.scala:243)
+[debug] 	at sbt.MainLoop$.processCommand(MainLoop.scala:276)
+[debug] 	at sbt.MainLoop$.$anonfun$next$5(MainLoop.scala:163)
+[debug] 	at sbt.State$StateOpsImpl$.runCmd$1(State.scala:289)
+[debug] 	at sbt.State$StateOpsImpl$.process$extension(State.scala:325)
+[debug] 	at sbt.MainLoop$.$anonfun$next$4(MainLoop.scala:163)
+[debug] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[debug] 	at sbt.MainLoop$.next(MainLoop.scala:163)
+[debug] 	at sbt.MainLoop$.run(MainLoop.scala:144)
+[debug] 	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:119)
+[debug] 	at sbt.io.Using.apply(Using.scala:27)
+[debug] 	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:112)
+[debug] 	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:66)
+[debug] 	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:51)
+[debug] 	at sbt.MainLoop$.runLogged(MainLoop.scala:42)
+[debug] 	at sbt.StandardMain$.runManaged(Main.scala:191)
+[debug] 	at sbt.xMain$.$anonfun$run$8(Main.scala:102)
+[debug] 	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+[debug] 	at scala.Console$.withIn(Console.scala:230)
+[debug] 	at sbt.internal.util.Terminal$.withIn(Terminal.scala:560)
+[debug] 	at sbt.internal.util.Terminal$.$anonfun$withStreams$1(Terminal.scala:350)
+[debug] 	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+[debug] 	at scala.Console$.withOut(Console.scala:167)
+[debug] 	at sbt.internal.util.Terminal$.$anonfun$withOut$2(Terminal.scala:550)
+[debug] 	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+[debug] 	at scala.Console$.withErr(Console.scala:196)
+[debug] 	at sbt.internal.util.Terminal$.withOut(Terminal.scala:550)
+[debug] 	at sbt.internal.util.Terminal$.withStreams(Terminal.scala:350)
+[debug] 	at sbt.xMain$.run(Main.scala:86)
+[debug] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[debug] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[debug] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[debug] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[debug] 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.scala:83)
+[debug] 	at sbt.xMain.run(Main.scala:46)
+[debug] 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+[debug] 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)
+[debug] 	at xsbt.boot.Launch$.run(Launch.scala:111)
+[debug] 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+[debug] 	at xsbt.boot.Launch$.launch(Launch.scala:120)
+[debug] 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+[debug] 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+[debug] 	at xsbt.boot.Boot$.main(Boot.scala:18)
+[debug] 	at xsbt.boot.Boot.main(Boot.scala)
+[error] sbt.compiler.EvalException: Type error in expression
+[error] sbt.compiler.EvalException: Type error in expression
+[error] Use 'last' for the full log.
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

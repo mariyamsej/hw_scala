@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="90b818c8-5de5-4803-89c2-e72c00fbe22f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc" beforeDir="false" afterPath="$PROJECT_DIR$/calc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/project/target/config-classes/$951981e255b1f8fc0d69$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/project/target/config-classes/$951981e255b1f8fc0d69.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/project/target/config-classes/$951981e255b1f8fc0d69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/src/main/scala/MainCalc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/calc/src/main/scala/MainCalc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/scala-2.13/classes/MainCalc$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/scala-2.13/classes/MainCalc$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +28,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/calc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -37,23 +44,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/calc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="run" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -79,7 +73,14 @@
       <workItem from="1615447010301" duration="34000" />
       <workItem from="1615448056702" duration="1294000" />
       <workItem from="1615476992487" duration="422000" />
-      <workItem from="1615484779758" duration="712000" />
+      <workItem from="1615484779758" duration="1058000" />
+      <workItem from="1616152626840" duration="1424000" />
+      <workItem from="1616155055490" duration="90000" />
+      <workItem from="1619342042253" duration="140000" />
+      <workItem from="1619342256814" duration="61000" />
+      <workItem from="1619342705522" duration="61000" />
+      <workItem from="1619344725641" duration="17000" />
+      <workItem from="1619622515868" duration="14000" />
     </task>
     <servers />
   </component>
