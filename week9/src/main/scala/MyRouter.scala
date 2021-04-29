@@ -12,18 +12,26 @@ class MyRouter(todoRepository: TodoRepository)(implicit system: ActorSystem[_], 
   import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
   import io.circe.generic.auto._
 
+
   override def route = concat(
-    path("ping") {
-      get {
-        complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "pong"))
+    path("/"){
+    val MainCalcActor = context.actorOf(Props(new MainCalc), "MainCalculator")
+    concat(
+      path(String) { expr =>
+        MainCalcActor ! SetRequest(expr.toString)
+        val result = MainCalcActor ? GetRequest("Result")
+
       }
-    },
-    path("todos"){
-      pathEndOrSingleSlash {
-        get {
-          complete(todoRepository.all())
-        }
+    )
+  }
+  )
+
+  def getRoute : Route = get {
+    path("dataSourceByName") {
+      parameters('name.as[String]) {
+        (name) =>
+        ...
       }
     }
-  )
-}
+  }
+  }
